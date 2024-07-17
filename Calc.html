@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <center>
+        <div>
+            <button id="calc-header" class="calc-header">
+                0
+            </button>
+        </div>
+        <div class="button-container">
+            <div>
+                <button style="margin: 3px;background-color:orange;" onclick="onclickBtimes()" class="button-add">
+                    x
+                </button>
+                <button style="margin: 3px;background-color:orange;" onclick="onclickBdiv()" class="button-add">
+                    ÷
+                </button>
+                <button  style="margin: 3px;background-color: orange;" onclick="onclickBpercent()" class="button-add">
+                    %
+                </button>
+                <button  style="margin: 3px;background-color: orange;" onclick="onclickBsquare()" class="button-add">
+                    √
+                </button>
+            </div>
+            <div>
+            <button onclick="onclickB7()" class="button-number">
+                7
+            </button>
+            <button onclick="onclickB8()" class="button-number">
+                8
+            </button>
+            <button onclick="onclickB9()" class="button-number">
+                9
+            </button>
+            <button onclick="onclickBmin()" class="button-minus">
+                -
+            </button>
+        </div>
+        </div>
+        <div>
+            <button onclick="onclickB4()" class="button-number">
+                4
+            </button>
+            <button onclick="onclickB5()" class="button-number">
+                5
+            </button>
+            <button onclick="onclickB6()" class="button-number">
+                6
+            </button>
+            <button onclick="onclickBAdd()" class="button-add">
+                +
+            </button>
+        </div>
+        <div>
+            <button onclick="onclickB1()" class="button-number">
+                1
+            </button>
+            <button onclick="onclickB2()" class="button-number">
+                2
+            </button>
+            <button onclick="onclickB3()" class="button-number">
+                3
+            </button>
+            <button onclick="onclickBperiod()" class="button-period">
+                .
+            </button>
+        </div>
+        <div>
+            <button onclick="onclickB0()" class="button-number">
+                0
+            </button>
+            <button onclick="calculate()" class="button-equal">
+                =
+            </button>
+        </div>
+    </center>
+    <script src="index.js"></script>
+</body>
+
+</html>

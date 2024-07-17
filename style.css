@@ -1,0 +1,65 @@
+.button-number{
+border-radius: 50px;
+background-color: lightgray;
+color: beige;
+height: 100px;
+width: 100px;
+margin: 3px;
+font-size: 14px;
+}
+.button-add{
+border-radius: 20px;
+background-color: rgb(25, 230, 29);
+color: white;
+height: 100px;
+width: 100px;
+font-size: 14px;
+}
+.button-minus{
+border-radius: 20px;
+background-color: rgb(233, 57, 57);
+color: white;
+height: 100px;
+width: 100px;
+font-size: 25px;
+}
+.button-equal{
+border-radius: 20px;
+background-color: gray;
+color: white;
+height: 100px;
+width: 210px;
+margin-right: 100px;
+font-size: 25px;
+}
+.button-container{
+max-width: 1440px;
+display: wrap;
+justify-content: space-between;
+flex-direction: row;
+}
+.button-period{
+    border-radius: 20px;
+    background-color: rgb(40, 97, 211);
+    color: white;
+    height: 100px;
+    width: 100px;
+    font-size: 25px;
+}
+.calc-header{
+width: 450px;
+height: 100px;
+background-color: azure;
+border-radius: 25px;
+margin: 20px;
+font-size: 25px;
+}
+.button-times{
+    border-radius: 20px;
+    background-color: gray;
+    color: white;
+    height: 100px;
+    width: 210px;
+    margin-right: 100px;
+    font-size: 25px;
+    }
